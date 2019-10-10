@@ -22,7 +22,7 @@ namespace DemoApplication.Models
         public double Multiply(double num1, double num2)
         {
             // To trace error while testing, writing + operator instead of * operator.  
-            return num1 + num2;
+            return num1 * num2;
         }
     }
 }
